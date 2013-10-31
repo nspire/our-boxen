@@ -38,3 +38,5 @@ github "sudo",       "1.0.0"
 # https://github.com/boxen.
 
 github "dropbox",    "1.1.2"
+github "macvim",     "1.0.0"
+github "spectacle",  "1.0.0"
