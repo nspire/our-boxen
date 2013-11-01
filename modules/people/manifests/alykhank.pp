@@ -3,6 +3,12 @@ class people::alykhank {
     value      => 'github@alykhan.com'
   }
 
+  package { 'Heroku Toolbelt':
+    ensure     => installed,
+    source     => 'https://s3.amazonaws.com/assets.heroku.com/heroku-toolbelt/heroku-toolbelt.pkg',
+    provider   => pkgdmg,
+  }
+
   include dropbox
   include macvim
   include spectacle
