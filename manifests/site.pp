@@ -76,13 +76,13 @@ node default {
   include ruby::2_0_0
 
   # common, useful packages
-  # package {
-  #   [
-  #     'ack',
+  package {
+    [
+      'ack',
   #     'findutils',
   #     'gnu-tar'
-  #   ]:
-  # }
+    ]:
+  }
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
