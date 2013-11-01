@@ -19,7 +19,11 @@ class people::alykhank::dotfiles {
     require    => Exec['Submodule Init'];
   }
 
-  # .bash_profile
+  file { "${home}/.bash_profile":
+    ensure     => link,
+    target     => "${dotfiles}/.bash_profile",
+    require    => Repository[$dotfiles];
+  }
 
   file { "${home}/.inputrc":
     ensure     => link,
