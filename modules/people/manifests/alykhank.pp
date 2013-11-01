@@ -1,4 +1,8 @@
 class people::alykhank {
+  git::config::global { 'user.email':
+    value      => 'github@alykhan.com'
+  }
+
   include dropbox
   include macvim
   include spectacle
