@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-autoconf
+  specs:
+    autoconf (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.1.0)
@@ -24,6 +29,11 @@ GITHUBTARBALL
     macvim (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-openssl
+  specs:
+    openssl (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-osx
   specs:
     osx (1.6.0)
@@ -39,6 +49,11 @@ GITHUBTARBALL
     repository (2.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-ruby
+  specs:
+    ruby (6.5.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-spectacle
   specs:
     spectacle (1.0.0)
@@ -48,15 +63,24 @@ GITHUBTARBALL
   specs:
     sudo (1.0.0)
 
+GITHUBTARBALL
+  remote: boxen/puppet-xquartz
+  specs:
+    xquartz (1.1.0)
+
 DEPENDENCIES
+  autoconf (= 1.0.0)
   boxen (= 3.1.0)
   dropbox (= 1.1.2)
   git (= 1.3.4)
   homebrew (= 1.4.1)
   macvim (= 1.0.0)
+  openssl (= 1.0.0)
   osx (= 1.6.0)
   property_list_key (= 0.1.0)
   repository (= 2.2.0)
+  ruby (= 6.5.0)
   spectacle (= 1.0.0)
   sudo (= 1.0.0)
+  xquartz (= 1.1.0)
 
