@@ -37,6 +37,8 @@ github "sudo",       "1.0.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "property_list_key", "0.1.0"
+github "osx",        "1.6.0"
 github "dropbox",    "1.1.2"
 github "macvim",     "1.0.0"
 github "spectacle",  "1.0.0"
