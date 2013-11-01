@@ -33,4 +33,6 @@ class people::alykhank {
     value      => true,
     user       => $::boxen_user;
   }
+
+  include people::alykhank::safari
 }
