@@ -7,6 +7,11 @@ class people::alykhank {
     source     => 'https://dl.google.com/googletalk/googletalkplugin/GoogleVoiceAndVideoSetup.dmg',
     provider   => pkgdmg,
   }
+  package { 'Skype':
+    ensure     => installed,
+    source     => 'http://download.skype.com/macosx/Skype_6.9.59.701.dmg',
+    provider   => appdmg,
+  }
 
   include osx::dock::autohide
 
