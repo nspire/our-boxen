@@ -2,6 +2,11 @@ class people::alykhank {
   include dropbox
   include macvim
   include spectacle
+  package { 'GoogleVoiceAndVideoSetup':
+    ensure     => installed,
+    source     => 'https://dl.google.com/googletalk/googletalkplugin/GoogleVoiceAndVideoSetup.dmg',
+    provider   => pkgdmg,
+  }
 
   include osx::dock::autohide
 
