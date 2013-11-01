@@ -18,5 +18,6 @@ class people::alykhank {
   }
 
   include people::alykhank::systempreferences
+  include people::alykhank::dotfiles
   include people::alykhank::safari
 }
