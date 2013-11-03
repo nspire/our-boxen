@@ -1,6 +1,6 @@
 class people::alykhank {
   git::config::global { 'user.email':
-    value      => 'github@alykhan.com'
+    value      => $github_email
   }
 
   package { 'Heroku Toolbelt':
