@@ -1,7 +1,5 @@
 class people::alykhank {
-  git::config::global { 'user.email':
-    value      => $github_email
-  }
+  include people::alykhank::git
 
   package { 'Heroku Toolbelt':
     ensure     => installed,
