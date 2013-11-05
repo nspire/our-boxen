@@ -10,6 +10,7 @@ class people::alykhank {
   include dropbox
   include macvim
   include spectacle
+  include chrome
   package { 'GoogleVoiceAndVideoSetup':
     ensure     => installed,
     source     => 'https://dl.google.com/googletalk/googletalkplugin/GoogleVoiceAndVideoSetup.dmg',
