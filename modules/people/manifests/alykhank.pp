@@ -6,6 +6,11 @@ class people::alykhank {
     source     => 'https://s3.amazonaws.com/assets.heroku.com/heroku-toolbelt/heroku-toolbelt.pkg',
     provider   => pkgdmg,
   }
+  package { 'Postgres.app':
+    ensure     => installed,
+    source     => 'https://github.com/PostgresApp/PostgresApp/releases/download/9.3.1.0-alpha1/Postgres93.zip',
+    provider   => compressed_app,
+  }
 
   include dropbox
   include macvim
