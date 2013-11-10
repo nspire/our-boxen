@@ -15,6 +15,7 @@ class people::alykhank {
   include dropbox
   include macvim
   include spectacle
+  include flux
   include chrome
   include iterm2::stable
   package { 'GoogleVoiceAndVideoSetup':
