@@ -81,7 +81,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (6.7.2)
+    ruby (6.7.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-spectacle
@@ -120,7 +120,7 @@ DEPENDENCIES
   pkgconfig (= 1.0.0)
   property_list_key (= 0.1.0)
   repository (= 2.2.0)
-  ruby (= 6.7.2)
+  ruby (= 6.7.5)
   spectacle (= 1.0.0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
